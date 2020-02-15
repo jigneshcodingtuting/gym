@@ -1,0 +1,405 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Table Fixed Header</title>
+
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+    <!-- CSS and JS for table fixed header -->
+    <link rel="stylesheet" href="table-fixed-header.css">
+    <script src="table-fixed-header.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <h1>Table Fixed Header</h1>
+    </div>
+    <div class="row fixed-table">
+      <div class="table-content">
+        <table class="table table-bordered table-hover table-fixed-header table-condensed">
+			<thead class="header">
+				<tr align='center' class="active">
+					<th><input type="checkbox" name="checkbox1"></th>
+					<th><b>ID</b></th>
+					<th><b>Branch</b></th>
+					<th><b>Joining Date</b></th>
+					<th><b>Name</b></th>
+					<th><b>Membership Type</b></th>
+					<th><b>Duration</b></th>
+					<th><b>Fee</b></th>
+					<th><b>Dis.</b></th>
+					<th><b>Total Fee</b></th>
+					<th><b>Paid Fee</b></th>
+					<th><b>Due Fee</b></th>
+					<th><b>Paid On</b></th>
+					<th><b>Fee Receipt</b></th>
+					<th><b>Membership Expire</b></th>
+					<th><b>Days Rem.</b></th>
+					<th><b>Contact N.</b></th>
+				</tr>
+			</thead>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Panchal</td>
+				<td>Off-Peak Individual (3.00 PM)</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+			
+			<tr align='center'>
+				<td><input type='checkbox' name='select[]' value='$row[0]'></td>
+				<td>101</td>
+				<td>Chetak Complex</td>
+				<td>13-JUL-2016</td>
+				<td>Jignesh Pancha</td>
+				<td>Individual</td>
+				<td>12 Month</td>
+				<td>800</td>
+				<td>10%</td>
+				<td bgcolor=' #ffff00'>8100</td>
+				<td bgcolor='#00ff00'>7000</td>
+				<td bgcolor='#ff1a1a'>1000</td>
+				<td>13-JUL-2016</td>
+				<td>1234</td>
+				<td bgcolor='#ff4d94'>13-JUL-2017</td>
+				<td bgcolor='#ff4d94'>364</td>
+				<td>9876543210</td>
+			</tr>
+				
+		</table>
+      </div>
+    </div>
+  <script language="javascript" type="text/javascript" >
+    $(document).ready(function(){
+      // add 30 more rows to the table
+      var row = $('table#mytable > tbody > tr:first');
+      for (i=0; i<30; i++) {
+        $('table#mytable > tbody').append(row.clone());
+      }
+      // make the header fixed on scroll
+      $('.table-fixed-header').fixedHeader();
+    });
+  </script>
+</body>
+
+</html>
